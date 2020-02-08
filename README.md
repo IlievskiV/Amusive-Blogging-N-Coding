@@ -11,5 +11,6 @@ of data exploration and interpretation. It also includes a hands-on experience u
 [D3](https://d3js.org/), to code an interactive *Parallel Coordinates* plot augmented with a dynamic table to search
 laptops easily.
 
-Code: [Interactive Dataviz](/Interactive%20Dataviz)
+Code: [Interactive Dataviz](/Interactive%20Dataviz) 
+
 Dataset: [Laptop Prices](https://www.kaggle.com/ionaskel/laptop-prices)

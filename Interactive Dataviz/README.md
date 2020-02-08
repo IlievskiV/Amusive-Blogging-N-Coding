@@ -13,4 +13,6 @@ logic
 
 ## Demo
 
-![Demo](../assets/parallel_coordinates_laptops_demo.gif)
+<center>
+<img src="../assets/parallel_coordinates_laptops_demo.gif" alt="Demo" />
+</center>
