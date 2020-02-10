@@ -9,7 +9,7 @@
 /**  @type {dict} The margins of the plot container */
 var margin = {top: 70, right: 50, bottom: 10, left: 70};
 /** @type {number} The width of the plot container */
-var width = document.getElementById('page_content').clientWidth - margin.left - margin.right;
+var width = document.body.clientWidth - margin.left - margin.right;
 /** @type {number} The height of the plot container */
 var height = 500 - margin.top - margin.bottom;
 /** @type {number} The inner height used for plotting the axes */
@@ -184,7 +184,7 @@ var columns = [
 
 
 /** Create a <table> element with id "grid" */
-var table = d3.select(".page__content")
+var table = d3.select("body")
             .append("table")
             .attr("id", "grid");
 
