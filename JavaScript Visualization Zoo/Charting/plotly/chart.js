@@ -25,6 +25,9 @@ $.getJSON( "../data/life-expectancy-plotly.json", function( data ) {
     /* Set the layout of the bar chart */
     var layout = {
     title: 'Rising life expectancy around the world',
+    barmode: 'group',
+    bargap: 0.15,
+    bargroupgap: 0.1,
     xaxis: {
         title: 'Year',
         tickfont: {
@@ -44,10 +47,7 @@ $.getJSON( "../data/life-expectancy-plotly.json", function( data ) {
             color: 'rgb(107, 107, 107)'
         },
         range: [0, 90]
-    },
-    barmode: 'group',
-    bargap: 0.15,
-    bargroupgap: 0.1
+    }
     };
 
     Plotly.newPlot('myDiv', a, layout);
