@@ -15,7 +15,7 @@ Code: [Interactive Dataviz](/Interactive%20Dataviz)
 
 Dataset: [Laptop Prices](https://www.kaggle.com/ionaskel/laptop-prices)
 
-## [JavaScript Visualization: Discover Different Visualization Tools](/JavaScript%Visualization%Zoo)
+## JavaScript Visualization: Discover Different Visualization Tools
 
 A series  of 4 blog posts, each discovering a different set of JavaScript visualization tools: charting, graphs, maps
 and 3D.
@@ -23,6 +23,6 @@ and 3D.
 ### [First part - Charting](https://ilievskiv.github.io/blog/2020-03-01-viz-tools-pt1/)
 The first  part covers the charting libraries with a hands-on experience with *NVD3*, *ApexCharts JS* and *Plotly JS*.
 
-Code: [JavaScript Visualization Zoo](/JavaScript%Visualization%Zoo/Charting)
+Code: [JavaScript Visualization Zoo](/JavaScript%Visualization%Zoo)
 
 Dataset: [Life Expectancy](https://ourworldindata.org/life-expectancy)
