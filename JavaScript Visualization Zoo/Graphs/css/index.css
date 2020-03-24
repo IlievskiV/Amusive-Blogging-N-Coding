@@ -1,0 +1,54 @@
+body {
+  font: 14pt Open Sans;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.main {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 20em;
+  bottom: 0;
+  z-index: 1;
+}
+
+.tools {
+  box-sizing: border-box;
+  padding: 0.25em 0.5em;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 20em;
+  background: #fff;
+  border-left: 1px solid #ddd;
+  z-index: 1;
+  overflow: auto;
+}
+
+.footer-link {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 0.25em 0.5em;
+  z-index: 2;
+}
+
+.action-icon {
+  cursor: pointer;
+}
+
+h1 {
+  margin: 0 0.125em;
+  position: absolute;
+  pointer-events: none;
+  color: #bbb;
+}
+
+* + h2 {
+  margin-top: 0.5em;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/skeleton.css" />
+  <link rel="stylesheet" href="css/font-awesome.css" />
+  <link rel="stylesheet" href="css/open-sans.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/tooltipster.bundle.min.css" />
+
+  <script src="js/cytoscape.min.js"></script>
+  <script src="js/cola.js"></script>
+  <script src="js/cytoscape-cola.js"></script>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/tooltipster.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+
+  <title>Graph Visualization with Cytoscape</title>
+</head>
+
+<body>
+  <h1>JDK dependency graph</h1>
+
+  <div id="cy" class="main">
+  </div>
+
+  <div class="tools">
+
+    <h2>Intro</h2>
+    <p>
+      The skeleton for this demo is taken from 
+      <a href="https://github.com/cytoscape/cytoscape.js-tutorial-demo" target="_blank" rel="nofollow noopener">here</a>
+      and adapted to the needs of our data and demonstration.
+    </p>
+
+    <h2>Data</h2>
+    
+    <p>
+      The dataset we use is the <i>class dependency network of JDK 1.6.0.7</i> framework downloaded from the 
+      <a href="http://konect.uni-koblenz.de/networks/subelj_jdk" target="_blank" rel="nofollow noopener">KOBLENZ data repository</a>.
+      The data set contains a big number of nodes and edges, thus we select only a small subset of nodes in order to being
+      able to render them here.
+    </p>
+
+    <h2>Layout</h2>
+
+    <p>The <a target="_blank" href="http://js.cytoscape.org/#layouts">layout</a> is used to specify how the nodes are positioned
+      in the viewport. Select between one of the example layouts or specify your own in the code.</p>
+
+    <p>
+      If using the <i>Force-directed</i> layout maybe you have to refresh several times to get a nice ordering of the graph.
+    </p>
+
+    <label for="layout" class="tooltip u-pull-left" title="Change layout">Active layout</label>
+    <div class="u-cf"></div>
+    <select id="layout">
+        <option value="cola" selected>Force-directed</option>
+        <option value="concentricCentrality">Concentric by centrality</option>
+        <option value="concentricHierarchyCentrality">Hierarchy by centrality</option>
+      </select>
+    <i id="redo-layout" class="fa fa-refresh action-icon tooltip" title="Redo layout"></i>
+
+    <h2>Algorithms</h2>
+
+    <p>Cytoscape.js can analyze data with a variety of <a target="_blank" href="http://js.cytoscape.org/#collection/algorithms">graph theory algorithms</a>,
+      including Breadth-First Search and Depth-First Search.</p>
+
+    <label for="algorithm" class="tooltip u-pull-left" title="Run algorithm. Try running A* a few times to see distances to different nodes">
+        Run algorithm
+      </label>
+    <div class="u-cf"></div>
+    <select id="algorithm">
+        <option value="none" selected>None</option>
+        <option value="bfs">BFS</option>
+        <option value="dfs">DFS</option>
+      </select>
+    <i id="redo-algorithm" class="fa fa-refresh action-icon tooltip" title="Redo algorithm visualization"></i>
+  </div>
+
+</body>
+
+</html>

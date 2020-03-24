@@ -1,0 +1,52 @@
+JDK dependency network, part of the Koblenz Network Collection
+===========================================================================
+
+This directory contains the TSV and related files of the subelj_jdk network:
+
+This is the software class dependency network of the JDK 1.6.0.7 framework. The network is directed. Nodes represent classes. An edge between them indicates that there exists a dependency between two classes. As there may be multiple references between classes the network has multiple edges.  
+
+
+More information about the network is provided here: 
+http://konect.uni-koblenz.de/networks/subelj_jdk
+
+Files: 
+    meta.subelj_jdk -- Metadata about the network 
+    out.subelj_jdk -- The adjacency matrix of the network in space separated values format, with one edge per line
+      The meaning of the columns in out.subelj_jdk are: 
+        First column: ID of from node 
+        Second column: ID of to node
+        Third column: edge weight
+    ent.subelj_jdk.class.name -- Contains the attribute `name` of entity `class` of the network
+
+
+Complete documentation about the file format can be found in the KONECT
+handbook, in the section File Formats, available at:
+
+http://konect.uni-koblenz.de/publications
+
+All files are licensed under a Creative Commons Attribution-ShareAlike 2.0 Germany License.
+For more information concerning license visit http://konect.uni-koblenz.de/license.
+
+
+
+Use the following References for citation:
+
+@MISC{konect:2016:subelj_jdk,
+    title = {JDK dependency network dataset -- {KONECT}},
+    month = sep,
+    year = {2016},
+    url = {http://konect.uni-koblenz.de/networks/subelj_jdk}
+}
+
+
+@inproceedings{konect,
+	title = {{KONECT} -- {The} {Koblenz} {Network} {Collection}},
+	author = {Jérôme Kunegis},
+	year = {2013},
+	booktitle = {Proc. Int. Conf. on World Wide Web Companion},
+	pages = {1343--1350},
+	url = {http://userpages.uni-koblenz.de/~kunegis/paper/kunegis-koblenz-network-collection.pdf}, 
+	url_presentation = {http://userpages.uni-koblenz.de/~kunegis/paper/kunegis-koblenz-network-collection.presentation.pdf},
+}
+
+

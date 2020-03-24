@@ -40,3 +40,20 @@ Files:
 - index.html: the main HTML file to draw the chart
 - chart.js: the main JavaScript code behind the charting
 - style .css: stlye definition for some parts of the chart
+
+## Part 2: Graph visualization tools
+
+### [Data](/JavaScript%20Visualization%20Zoo/Graphs/datasets)
+
+The dataset we use is the *class dependency network of JDK 1.6.0.7* framework downloaded from the [KOBLENZ data repository](http://konect.uni-koblenz.de/networks/subelj_jdk).
+
+The original data set is stored in the [raw_data](/JavaScript%20Visualization%20Zoo/Graphs/raw_data) and contains the following files:
+
+- *ent.subelj_jdk_jdk.class.name*: each line contains the name of the class prefixed with the package name. The line number is the ID of the node.
+- *meta.subelj_jdk_jdk*: metadata information about the dataset
+- *out.subelj_jdk_jdk*: all edges between the nodes representing the dependency between the classes
+
+The original data set contains a big number of nodes and edges, thus we select only a small subset of nodes in order to being able to render them here. For this reason with the script [transform_data.ipynb](/JavaScript%20Visualization%20Zoo/Graphs/transform_data.ipynb) we transform the data in the desired format. We select the fifty first nodes and the edges
+related to them. The transformed data is stored in [datasets](/JavaScript%20Visualization%20Zoo/Graphs/datasets).
+
+To draw the graph we use the JavaScript library [Cytoscape JS](https://js.cytoscape.org/).

@@ -1,0 +1,9 @@
+category: Software
+code: DJ
+name: JDK dependency
+description: Class–class dependencies
+entity-names: class
+extr: subelj
+url: http://lovro.lpt.fri.uni-lj.si/support.jsp
+long-description: This is the software class dependency network of the JDK 1.6.0.7 framework. The network is directed. Nodes represent classes. An edge between them indicates that there exists a dependency between two classes. As there may be multiple references between classes the network has multiple edges.  
+relationship-names: dependency
