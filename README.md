@@ -27,7 +27,7 @@ Code: [JavaScript Charting Libraries](/JavaScript%20Visualization%20Zoo/Charting
 
 Dataset: [Life Expectancy](https://ourworldindata.org/life-expectancy)
 
-### [Second Part - Graph Visualization](https://ilievskiv.github.io/2020-03-24-viz-tools-pt2-2/)
+### [Second Part - Graph Visualization](https://ilievskiv.github.io/blog/2020-03-24-viz-tools-pt2-2/)
 
 The second part covers the graph visualization libraries with a hands-on experience with *Cytoscape JS*.
 We discuss the different graph data formats, data repositories, different *JavaScript* libraries and
