@@ -36,35 +36,12 @@
       cy.elements().remove();
       cy.add( dataset );
     }
-    let applyDatasetFromSelect = () => Promise.resolve( $dataset ).then( getDataset ).then( applyDataset );
+    let applyDatasetFromSelect = () => 
+          Promise.resolve( $dataset ).then( getDataset ).then( applyDataset );
 
-    let calculateCachedCentrality = () => {
-      let nodes = cy.nodes();
-
-      if( nodes.length > 0 && nodes[0].data('centrality') == null ){
-        let centrality = cy.elements().closenessCentralityNormalized();
-
-        nodes.forEach( n => n.data( 'centrality', centrality.closeness(n) ) );
-      }
-    };
-
-    let $layout = $('#layout');
+    let $layout = "cola";
     let maxLayoutDuration = 1500;
     let layoutPadding = 50;
-    let concentric = function( node ){
-      calculateCachedCentrality();
-
-      return node.data('centrality');
-    };
-    let levelWidth = function( nodes ){
-      calculateCachedCentrality();
-
-      let min = nodes.min( n => n.data('centrality') ).value;
-      let max = nodes.max( n => n.data('centrality') ).value;
-
-
-      return ( max - min ) / 5;
-    };
     let layouts = {
       cola: {
         name: 'cola',
@@ -89,25 +66,6 @@
 
           return 45 / w;
         }
-      },
-      concentricCentrality: {
-        name: 'concentric',
-        padding: layoutPadding,
-        animate: true,
-        animationDuration: maxLayoutDuration,
-        concentric: concentric,
-        levelWidth: levelWidth
-      },
-      concentricHierarchyCentrality: {
-        name: 'concentric',
-        padding: layoutPadding,
-        animate: true,
-        animationDuration: maxLayoutDuration,
-        concentric: concentric,
-        levelWidth: levelWidth,
-        sweep: Math.PI * 2 / 3,
-        clockwise: true,
-        startAngle: Math.PI * 1 / 6
       }
     };
     let prevLayout;
@@ -118,10 +76,9 @@
       }
 
       let l = prevLayout = cy.makeLayout( layout );
-
       return l.run().promiseOn('layoutstop');
     }
-    let applyLayoutFromSelect = () => Promise.resolve( $layout.value ).then( getLayout ).then( applyLayout );
+    let applyLayoutFromSelect = () => Promise.resolve( $layout ).then( getLayout ).then( applyLayout );
 
     let $algorithm = $('#algorithm');
     let getAlgorithm = (name) => {
@@ -167,7 +124,7 @@
             if (currentAlgorithm === algResults && i < algResults.path.length) {
               algResults.path[i].addClass('highlighted');
               i++;
-              setTimeout(highlightNext, 500);
+              setTimeout(highlightNext, 50);
             } else {
               // resolve when finished or when a new algorithm has started visualization
               resolve();
@@ -184,13 +141,9 @@
     });
 
     tryPromise( applyDatasetFromSelect ).then( applyStylesheetFromSelect ).then( applyLayoutFromSelect );
-
-    $layout.addEventListener('change', applyLayoutFromSelect);
-
     $('#redo-layout').addEventListener('click', applyLayoutFromSelect);
 
     $algorithm.addEventListener('change', applyAlgorithmFromSelect);
-
     $('#redo-algorithm').addEventListener('click', applyAlgorithmFromSelect);
   });
 })();
