@@ -36,3 +36,14 @@ out-of-the=box tools.
 Code: [JavaScript Graph Visualization Libraries](/JavaScript%20Visualization%20Zoo/Graphs)
 
 Data: [Class Dependency Network of JDK 1.6.0.7](http://konect.uni-koblenz.de/networks/subelj_jdk)
+
+## [Random Processes in Python](/Random%20Processes)
+
+A series of blog posts dedicated to the random processes simulation and animated visualization using the Python numerical
+libraries.
+
+### [Animated Visualization of Random Walks in Python](https://ilievskiv.github.io/blog/2020-04-12-random-walk/)
+
+Introduction of the simple random walk, simulation and animated visualization.
+
+Code: [Random Walk Animation Pyhton Notebook](/Random%20Processes/random_walk_animation.ipynb)
