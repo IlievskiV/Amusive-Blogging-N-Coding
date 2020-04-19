@@ -47,3 +47,9 @@ libraries.
 Introduction of the simple random walk, simulation and animated visualization.
 
 Code: [Random Walk Animation Pyhton Notebook](/Random%20Processes/random_walk_animation.ipynb)
+
+### [Animated Visualization of Brownian Motion in Python](https://ilievskiv.github.io/blog/2020-04-16-brownian-motion/)
+
+Introduction of the Brownian Motion, how to construct it using the simple random walk and animated visualization of this principle.
+
+Code: [Brownian Motion Animation Pyhton Notebook](/Random%20Processes/brownian_motion_animation.ipynb)
