@@ -19,3 +19,13 @@ Animation of a simple random walk by using the MatplotLib Animation API. Source 
 Illustration of the Brownian Motion construction from a simple random walk using the Donsker's Invariance Principle. Source code in file:
 
 - brownian_motion_animation.ipynb
+
+## [Random Walks Have Never Been Funnier: Drifted Brownian Motion in Python](https://ilievskiv.github.io/blog/2020-05-01-drifted-brownian-motion/)
+
+<center>
+<img src="../assets/vol_bm_with_drift.png" alt="Brownian Motion with drift and volatility using Python, MatplotLib and NumPy" />
+</center>
+
+Extending the bare Brownian Motion with volatility and drift. We illustrate these two proparties with an animated visualization using Matplotlib's Animation API. Source code:
+
+- drifted_brownian_motion.ipynb
