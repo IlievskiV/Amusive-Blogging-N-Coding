@@ -53,3 +53,9 @@ Code: [Random Walk Animation Pyhton Notebook](/Random%20Processes/random_walk_an
 Introduction of the Brownian Motion, how to construct it using the simple random walk and animated visualization of this principle.
 
 Code: [Brownian Motion Animation Pyhton Notebook](/Random%20Processes/brownian_motion_animation.ipynb)
+
+### [Random Walks Have Never Been Funnier: Drifted Brownian Motion in Python](https://ilievskiv.github.io/blog/2020-05-01-drifted-brownian-motion/)
+
+Extending the bare Brownian Motion with volatility and drift. We illustrate these two proparties with an animated visualization using Matplotlib's Animation API. Source code:
+
+Code: [Drifted Brownian Motion](/Random%20Processes/drifted_brownian_motion.ipynb)
