@@ -29,3 +29,15 @@ Illustration of the Brownian Motion construction from a simple random walk using
 Extending the bare Brownian Motion with volatility and drift. We illustrate these two proparties with an animated visualization using Matplotlib's Animation API. Source code:
 
 - drifted_brownian_motion.ipynb
+
+### [Forget Determinism, see Randomness in Action: How to Model Stock Price](https://ilievskiv.github.io/blog/2020-05-17-geometric-brownian-motion/)
+
+<center>
+<img src="../assets/gbm_teaser.png" alt="Geometric Brownian Motion using Python, MatplotLib and NumPy" />
+</center>
+
+Transforming the Drifted Brownian Motion from a process with additive increments to a process with multiplicative
+increments. This is well suited for modelling stock price data. We analyze and animate one interesting property of
+the process: for certain conditions, it has zero mean and infinite variance. Source code:
+
+- geometric_brownian_motion.ipynb
