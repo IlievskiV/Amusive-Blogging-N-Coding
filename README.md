@@ -67,3 +67,14 @@ increments. This is well suited for modelling stock price data. We analyze and a
 the process: for certain conditions, it has zero mean and infinite variance.
 
 Code: [Geometric Brownian Motion](/Random%20Processes/geometric_brownian_motion.ipynb)
+
+## [Numerical Integration in Python](/Integration)
+
+A series of blog posts dedicated to the numerical integration with animated visualizations in Python.
+
+### [Integrals are Easy: Visualized Riemann Integration in Python](https://ilievskiv.github.io/blog/2020-05-27-riemann-integration/)
+
+Introduction to the simplest form of Integration using the Riemann sums. We illustrate the numerical integration
+process using Matplotlib's Animation API.
+
+Code: [Riemann Sums](/Integration/riemann_sums.ipynb)
