@@ -100,3 +100,15 @@ Find the source code [here](/Visualizations/calculate_area_animation.ipynb)
 Amazing properties of the Mandelbrot sets and an animated visualization using Matplotlib as it converges.
 
 Find the source code [here](/Visualizations/mandelbrot.ipynb)
+
+## [Visualized Koch Snowflake in Python with Matplotlib](https://isquared.digital/visualizations/2020-06-15-koch-curve/)
+
+How to construct perfect snowflakes using the Koch Curve. It only takes a simple math.
+
+Find the source code [here](/Visualizations/snowflake.ipynb)
+
+## [Mind-Gobbling Julia Set: Animate your own in Python with Matplotlib](https://isquared.digital/visualizations/2020-06-26-julia-set/)
+
+Analyzing Julia Set with an animated illistration.
+
+Find the source code [here](/Visualizations/julia_set.ipynb)
