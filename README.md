@@ -83,6 +83,13 @@ process using Matplotlib's Animation API.
 
 Code: [Riemann Sums](/Integration/riemann_sums.ipynb)
 
+### [Integrals are Fun: Illustrated Riemann-Stieltjes Integral](https://ilievskiv.github.io/blog/2020-10-01-riemann-stieltjes-integration/)
+
+Introduction to the Riemann-Stieltjes Integral which is a generalization of the Riemann Integral. We provide some
+intuitive illustrations to explain and understand this type of integral.
+
+Code: [Riemann-Stieltjes Sums](/Integration/rieman_stieltjes_sums.ipynb)
+
 # Visualizations
 
 The visualization part offers very short and simple explanation of some big ideas where the main focus is
