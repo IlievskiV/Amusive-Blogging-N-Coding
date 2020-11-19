@@ -34,7 +34,7 @@ How we can visually represent the calculation of the circle's area. Source code 
 - calculate_area_animation.ipynb
 
 
-## [Chaotic Beauty: Bifurcation Diagram Animation with Matplotlib](https://ilievskiv.github.io/blog/2020-11-18-bufurcation-diagram/)
+## [Chaotic Beauty: Bifurcation Diagram Animation with Matplotlib](https://ilievskiv.github.io/visualizations/2020-11-18-bufurcation-diagram/)
 
 <center>
 <img src="../assets/bifurcation.png" alt="Bifurcation Diagram" />
