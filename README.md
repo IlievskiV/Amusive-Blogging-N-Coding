@@ -124,7 +124,7 @@ Find the source code [here](/Visualizations/julia_set.ipynb)
 
 Visualizing the chaotic bifurcation diagram getting created from a seemingly simple dynamical system.
 
-Find the source code [here](/Visualizations/bifurcation_diagram.ipynb.ipynb)
+Find the source code [here](/Visualizations/bifurcation_diagram.ipynb)
 
 ## [Not an ordinary function: Riemann Zeta zeros visualized in Python with Matplotlib](https://isquared.digital/visualizations/2021-02-25-riemann-zeta-zeros)
 

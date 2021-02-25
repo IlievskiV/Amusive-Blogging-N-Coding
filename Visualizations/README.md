@@ -50,4 +50,7 @@ Animation the Bifurcation Diagram creation by using the MatplotLib Animation API
 <img src="../assets/riemann_zeta_zeros.png" alt="Bifurcation Diagram" />
 </center>
 
-- riemann_zeta_zeros.ipynb:
+Visualizing and animating the zeros of the Riemann Zeta function, which are still not mathematically
+proven to hold in all cases.
+
+- riemann_zeta_zeros.ipynb: the source code of the visualization
