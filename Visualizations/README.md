@@ -43,3 +43,11 @@ How we can visually represent the calculation of the circle's area. Source code 
 Animation the Bifurcation Diagram creation by using the MatplotLib Animation API. Source code in file:
 
 - bifurcation_diagram.ipynb: the source code to create the bifurcation diagram
+
+## [Not an ordinary function: Riemann Zeta zeros visualized in Python with Matplotlib](https://isquared.digital/visualizations/2021-02-25-riemann-zeta-zeros)
+
+<center>
+<img src="../assets/riemann_zeta_zeros.png" alt="Bifurcation Diagram" />
+</center>
+
+- riemann_zeta_zeros.ipynb:

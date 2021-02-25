@@ -119,3 +119,16 @@ Find the source code [here](/Visualizations/snowflake.ipynb)
 Analyzing Julia Set with an animated illistration.
 
 Find the source code [here](/Visualizations/julia_set.ipynb)
+
+## [Chaotic Beauty: Bifurcation Diagram Animation with Matplotlib](https://isquared.digital/visualizations/2020-11-18-bufurcation-diagram/)
+
+Visualizing the chaotic bifurcation diagram getting created from a seemingly simple dynamical system.
+
+Find the source code [here](/Visualizations/bifurcation_diagram.ipynb.ipynb)
+
+## [Not an ordinary function: Riemann Zeta zeros visualized in Python with Matplotlib](https://isquared.digital/visualizations/2021-02-25-riemann-zeta-zeros)
+
+Visualizing and animating the zeros of the Riemann Zeta function, which are still not mathematically
+proven to hold in all cases.
+
+Find the source code [here](/Visualizations/riemann_zeta_zeros.ipynb)
