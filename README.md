@@ -90,6 +90,15 @@ intuitive illustrations to explain and understand this type of integral.
 
 Code: [Riemann-Stieltjes Sums](/Integration/rieman_stieltjes_sums.ipynb)
 
+## [Cellular Automata in Python](/Cellular%20Automata)
+
+### [Simple but Stunning: Animated Cellular Automata in Python](https://ilievskiv.github.io/blog/2021-05-02-cellular-automata/)
+
+Intro to cellular automata. Implementation of the elementary cellular automata and animation of the
+evolution of one automaton using Matplotlib.
+
+Code: [Cellular Automata](/Cellular%20Automata/cellular_automata.ipynb)
+
 # Visualizations
 
 The visualization part offers very short and simple explanation of some big ideas where the main focus is
