@@ -1,4 +1,4 @@
-# Amusive Blogging N' Coding
+# Amusive Blogging N' Coding (ABC)
 
 This repository contains the code from the hands-on blog posts at [iSquared](https://isquared.digital/). The website
 mainly revolves around the visual explanation of many different phenomena. There are two main parts: blogs and visualizations.
