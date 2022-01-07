@@ -2,6 +2,11 @@
 
 
 ## [This is why the Mandelbrot sets are amazing!](https://isquared.digital/visualizations/2020-06-11-mandelbrot/)
+
+<center>
+<img src="../assets/mandelbrot.png" alt="Fractals" />
+</center>
+
 ## [Julia Set: Animate your own in Python with Matplotlib](https://isquared.digital/visualizations/2020-06-26-julia-set/)
 
 <center>
@@ -54,3 +59,14 @@ Visualizing and animating the zeros of the Riemann Zeta function, which are stil
 proven to hold in all cases.
 
 - riemann_zeta_zeros.ipynb: the source code of the visualization
+
+
+## [Sierpinski triangle: Fractal Christmass Tree](https://isquared.digital/visualizations/2021-12-24-sierpinski-triangle/)
+
+Animated visualization of the Sierpinski triangle, which resembles a Christmass tree.
+
+- sierpinski_triangle.ipynb: the source code of the visualization
+
+<center>
+<img src="../assets/sierpinski_triangle_top_image.png" alt="Three Sierpinski triangles" />
+</center>

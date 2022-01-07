@@ -83,7 +83,7 @@ process using Matplotlib's Animation API.
 
 Code: [Riemann Sums](/Integration/riemann_sums.ipynb)
 
-### [Integrals are Fun: Illustrated Riemann-Stieltjes Integral](https://ilievskiv.github.io/blog/2020-10-01-riemann-stieltjes-integration/)
+### [Integrals are Fun: Illustrated Riemann-Stieltjes Integral](https://isquared.digital/blog/2020-10-01-riemann-stieltjes-integration/)
 
 Introduction to the Riemann-Stieltjes Integral which is a generalization of the Riemann Integral. We provide some
 intuitive illustrations to explain and understand this type of integral.
@@ -92,12 +92,21 @@ Code: [Riemann-Stieltjes Sums](/Integration/rieman_stieltjes_sums.ipynb)
 
 ## [Cellular Automata in Python](/Cellular%20Automata)
 
-### [Simple but Stunning: Animated Cellular Automata in Python](https://ilievskiv.github.io/blog/2021-05-02-cellular-automata/)
+### [Simple but Stunning: Animated Cellular Automata in Python](https://isquared.digital/blog/2021-05-02-cellular-automata/)
 
 Intro to cellular automata. Implementation of the elementary cellular automata and animation of the
 evolution of one automaton using Matplotlib.
 
 Code: [Cellular Automata](/Cellular%20Automata/cellular_automata.ipynb)
+
+
+## [Hyperparameters Search](/Hyperparameters%20Search)
+
+### [Neural Networks Hyperparameter Search, the Visualized Way](https://isquared.digital/blog/2021-12-19-hyperparam-search/)
+
+Tutorial on how to use the HiPlot library to find the best hyperparameters for a simple Keras model.
+
+Code: [Hyperparameter Search](/Hyperparameters%20Search/HiPlot_Tutorial.ipynb)
 
 # Visualizations
 
@@ -141,3 +150,11 @@ Visualizing and animating the zeros of the Riemann Zeta function, which are stil
 proven to hold in all cases.
 
 Find the source code [here](/Visualizations/riemann_zeta_zeros.ipynb)
+
+
+## [Sierpinski triangle: Fractal Christmass Tree](https://isquared.digital/visualizations/2021-12-24-sierpinski-triangle/)
+
+Animated visualization of the Sierpinski triangle, which resembles a Christmass tree.
+
+Find the source code [here](/Visualizations/sierpinski_triangle.ipynb)
+
