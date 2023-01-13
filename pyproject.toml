@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "amusive-blogging-n-coding"
+version = "0.1.0"
+description = "code from the hands-on blog posts at iSquared.digital"
+authors = ["IlievskiV"]
+license = "GNU GENERAL PUBLIC LICENSE"
+readme = "README.md"
+packages = [{include = "amusive_blogging_n_coding"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+matplotlib = "^3.6.3"
+ipykernel = "^6.20.1"
+jupyter = "^1.0.0"
+ipywidgets = "^8.0.4"
+mpmath = "^1.2.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+isort = "^5.11.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
