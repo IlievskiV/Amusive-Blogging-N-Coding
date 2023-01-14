@@ -160,5 +160,6 @@ Find the source code [here](/Visualizations/sierpinski_triangle.ipynb)
 
 ## [Barnsley Fern](https://isquared.digital/visualizations/2023-01-13-barnsley-fern/)
 
+Generating and plotting a Barnsley Fern Fractal.
 
 Find the source code [here](/Visualizations/barnsley_fern.ipynb)

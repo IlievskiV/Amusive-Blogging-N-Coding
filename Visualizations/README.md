@@ -70,3 +70,13 @@ Animated visualization of the Sierpinski triangle, which resembles a Christmass 
 <center>
 <img src="../assets/sierpinski_triangle_top_image.png" alt="Three Sierpinski triangles" />
 </center>
+
+## [Barnsley Fern](https://isquared.digital/visualizations/2023-01-13-barnsley-fern/)
+
+Generating and plotting a Barnsley Fern Fractal.
+
+- barnsley_fern.ipynb: the source code of the implementation
+
+<center>
+<img src="../assets/barnsley_fern_teaser.webp" alt="Two Barnsley Ferns opposite to each other" />
+</center>
