@@ -108,6 +108,16 @@ Tutorial on how to use the HiPlot library to find the best hyperparameters for a
 
 Code: [Hyperparameter Search](/Hyperparameters%20Search/HiPlot_Tutorial.ipynb)
 
+
+## Measuring Carbon Footprint
+
+### [Track the CO emissions of your Python code the same way you time it. Here is how!](https://ilievskiv.github.io/blog/2023-01-18-code-carbon/)
+
+Tutorial on how to use CodeCarbon Python library for tracking the CO2 emissions of a neural network training process.
+
+Code: [Code Carbon](/Carbon%20Footprint/codecarbon_experiments.ipynb)
+
+
 # Visualizations
 
 The visualization part offers very short and simple explanation of some big ideas where the main focus is
