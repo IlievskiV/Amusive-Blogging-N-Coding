@@ -80,3 +80,14 @@ Generating and plotting a Barnsley Fern Fractal.
 <center>
 <img src="../assets/barnsley_fern_teaser.webp" alt="Two Barnsley Ferns opposite to each other" />
 </center>
+
+## [Plotting with Altair](https://isquared.digital/visualizations/2023-01-27-altair-plotting/)
+
+How to plot data using the Altair Python library.
+
+Code in:
+- altair_plotting.ipynb
+
+<center>
+<img src="../assets/altair_iris_top_image.png" alt="Code and an interactive scatter plot" />
+</center>

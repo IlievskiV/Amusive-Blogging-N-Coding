@@ -173,3 +173,9 @@ Find the source code [here](/Visualizations/sierpinski_triangle.ipynb)
 Generating and plotting a Barnsley Fern Fractal.
 
 Find the source code [here](/Visualizations/barnsley_fern.ipynb)
+
+## [Plotting with Altair](https://isquared.digital/visualizations/2023-01-27-altair-plotting/)
+
+How to plot data using the Altair Python library.
+
+Find the source code [here](/Visualizations/altair_plotting.ipynb)
