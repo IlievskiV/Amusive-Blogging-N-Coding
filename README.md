@@ -111,12 +111,20 @@ Code: [Hyperparameter Search](/Hyperparameters%20Search/HiPlot_Tutorial.ipynb)
 
 ## [Measuring Carbon Footprint](/Carbon%20Footprint)
 
-### [Track the CO emissions of your Python code the same way you time it. Here is how!](https://ilievskiv.github.io/blog/2023-01-18-code-carbon/)
+### [Track the CO emissions of your Python code the same way you time it. Here is how!](https://isquared.digital/blog/2023-01-18-code-carbon/)
 
 Tutorial on how to use CodeCarbon Python library for tracking the CO2 emissions of a neural network training process.
 
 Code: [Code Carbon](/Carbon%20Footprint/codecarbon_experiments.ipynb)
 
+## [Code Profiling](/Profiling)
+
+### [Make every line of your Python code to count with these 4 profilers](https://isquared.digital/tips/2023-02-06-python-profilers/)
+
+Experimenting with [snakeviz](https://jiffyclub.github.io/snakeviz/), [line_profiler](https://github.com/pyutils/line_profiler), 
+[memory_profiler](https://github.com/pythonprofilers/memory_profiler) and [pyinstrument](https://github.com/joerick/pyinstrument).
+
+Code: [Profilers Experiments](/Profiling/profilers_experiments.ipynb)
 
 # [Visualizations](/Visualizations)
 
