@@ -14,36 +14,45 @@ ipykernel = "^6.20.1"
 jupyter = "^1.0.0"
 ipywidgets = "^8.0.4"
 mpmath = "^1.2.1"
+torch = "^1.13.1"
 
 # carbon footprint
-codecarbon = {version = "^2.1.4", optional = true}
-dash = {version = "2.7.1", optional = true}
-dash-bootstrap-components = {version = "0.13.1", optional = true}
-fire = {version = "0.5.0", optional = true}
-tensorflow = {version = "^2.9.3", optional = true}
+[tool.poetry.group.carbon_footprint]
+optional = true
+
+[tool.poetry.group.carbon_footprint.dependencies]
+codecarbon = "^2.1.4"
+dash = "2.7.1"
+dash-bootstrap-components =  "0.13.1"
+fire = "0.5.0"
+tensorflow = "^2.9.3"
 
 # visualizations
-altair = {version = "^4.2.2", optional = true}
-vega-datasets = {version = "^0.9.0", optional = true}
+[tool.poetry.group.visualizations]
+optional = true
+
+[tool.poetry.group.visualizations.dependencies]
+altair =  "^4.2.2"
+vega-datasets = "^0.9.0"
 scipy = "^1.10.0"
 
-[tool.poetry.extras]
-carbon_footprint = [
-    "codecarbon",
-    "tensorflow",
-    "dash",
-    "dash-bootstrap-components",
-    "fire"
-]
+# profiling
+[tool.poetry.group.profiling]
+optional = true
 
-visualizations = [
-    "altair",
-    "vega-datasets"
-]
+[tool.poetry.group.profiling.dependencies]
+line-profiler = "^4.0.2"
+memory-profiler = "^0.61.0"
+snakeviz = "^2.1.1"
+pyinstrument = "^4.4.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^22.12.0"
 isort = "^5.11.4"
+
+
+[tool.poetry.group.profilers.dependencies]
+pyinstrument = "^4.4.0"
 
 [build-system]
 requires = ["poetry-core"]
