@@ -7,7 +7,7 @@ Make sure you have a Python version compatible with the requirement set in the `
 run the following command:
 
 ```bash
-poetry install --extras carbon_footprint
+poetry install --with carbon_footprint
 ```
 
 ## [Track the CO emissions of your Python code the same way you time it. Here is how!](https://ilievskiv.github.io/blog/2023-01-18-code-carbon/)
