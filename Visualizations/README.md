@@ -91,3 +91,27 @@ Code in:
 <center>
 <img src="../assets/altair_iris_top_image.png" alt="Code and an interactive scatter plot" />
 </center>
+
+
+## [Understand high-dimensional data with three lines of code](https://isquared.digital/tips/2023-01-26-pandas-plotting/)
+
+
+Plot high-dimensional data with Pandas plotting.
+
+Source code:
+- pandas_plotting.ipynb
+
+<center>
+<img src="../assets/pandas_plotting.png" alt="Code snippet showing how to use Pandas plotting" />
+</center>
+
+## [The beauty of the Walrus Operator in Python](https://isquared.digital/tips/2023-02-12-walrus-operator/)
+
+How to use the Walrus operator in Python
+
+Source code:
+- jax_gradient_with_walrus_op.ipynb
+
+<center>
+<img src="../assets/walrus_operator_header.png" alt="Code snippet showing how to use the Python Walrus operator with JAX" />
+</center>
